@@ -19,9 +19,9 @@ filelist=`ls ${dir}`                                                #`command` �
 for filename in $filelist
 do
         perm=""
-        test -r "${dir}/${filename}" && perm="$perm readable"      #侦测文档名覅否具有可读属性
-        test -w "${dir}/${filename}" && perm="$perm writable"       #侦测文档名覅否具有可写属性
-        test -x "${dir}/${filename}" && perm="$perm executable"     #侦测文档名覅否具有可执行属性
+        test -r "${dir}/${filename}" && perm="$perm readable"      #侦测文档名是否具有可读属性
+        test -w "${dir}/${filename}" && perm="$perm writable"       #侦测文档名是否具有可写属性
+        test -x "${dir}/${filename}" && perm="$perm executable"     #侦测文档名是否具有可执行属性
         echo "The file ${dir}/${filename}'s permission is ${perm}"
 done
 
