@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sh15.sh" afterDir="false" />
+    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="cc">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sh09-2.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -27,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sh12.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="135">
               <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
             </state>
           </provider>
@@ -36,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sh12-2.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="165">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sh12-3.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="150">
               <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
             </state>
           </provider>
@@ -54,8 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sh13.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sh16.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -63,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sh13-2.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="150">
               <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
             </state>
           </provider>
@@ -72,17 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sh14.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="405">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sh15.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="15">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -119,19 +128,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="shell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
+              <item name="Linux-shell" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Linux-shell" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,6 +156,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="D:\程才资料\读书心得-程才\Linux\shell" />
     </key>
   </component>
@@ -162,29 +172,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.sh15.sh">
-    <configuration name="sh09-2.sh" type="BashConfigurationType" factoryName="Bash">
+  <component name="RunManager" selected="Bash.sh09-2.sh (1)">
+    <configuration name="sh09-2.sh (1)" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\sh.exe" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell\sh09-2.sh" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sh09-2.sh" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sh12-3.sh" type="BashConfigurationType" factoryName="Bash" editBeforeRun="true" temporary="true">
+    <configuration name="sh09-2.sh" type="BashConfigurationType" factoryName="Bash">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\sh.exe" />
+      <option name="INTERPRETER_PATH" value="#!/bin/bash" />
       <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell" />
+      <option name="WORKING_DIRECTORY" value="~/Documents/Git/Linux-shell" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell\sh12-3.sh" />
-      <option name="PARAMETERS" value="one" />
+      <option name="SCRIPT_NAME" value="~/Documents/Git/Linux-shell/sh09-2.sh" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,19 +253,19 @@
     </configuration>
     <list>
       <item itemvalue="Bash.sh09-2.sh" />
-      <item itemvalue="Bash.sh12-3.sh" />
       <item itemvalue="Bash.sh13.sh" />
       <item itemvalue="Bash.sh13-2.sh" />
       <item itemvalue="Bash.sh14.sh" />
       <item itemvalue="Bash.sh15.sh" />
+      <item itemvalue="Bash.sh09-2.sh (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.sh09-2.sh (1)" />
         <item itemvalue="Bash.sh15.sh" />
         <item itemvalue="Bash.sh14.sh" />
         <item itemvalue="Bash.sh13-2.sh" />
         <item itemvalue="Bash.sh13.sh" />
-        <item itemvalue="Bash.sh12-3.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +283,7 @@
       <workItem from="1559368181332" duration="3853000" />
       <workItem from="1559372711942" duration="1111000" />
       <workItem from="1559373861947" duration="229000" />
+      <workItem from="1559393731116" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="cc">
       <created>1559373124202</created>
@@ -285,7 +296,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10068000" />
+    <option name="totallyTimeSpent" value="10398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,10 +308,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1589242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,14 +324,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32866243" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32997763" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061125" side_tool="true" weight="0.32997763" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -330,6 +340,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,59 +391,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="cc" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sh09-2.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sh12.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="135">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sh12-2.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sh12-3.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="150">
           <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sh13.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sh13-2.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="150">
           <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sh14.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="405">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sh15.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh13.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh16.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh09-2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
