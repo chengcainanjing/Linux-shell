@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="">
+    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="添加for 固定循环脚本2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,6 +96,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sh17.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -113,6 +122,7 @@
         <option value="$PROJECT_DIR$/sh13-2.sh" />
         <option value="$PROJECT_DIR$/sh14.sh" />
         <option value="$PROJECT_DIR$/sh15.sh" />
+        <option value="$PROJECT_DIR$/sh17.sh" />
         <option value="$PROJECT_DIR$/sh16.sh" />
       </list>
     </option>
@@ -172,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.sh15.sh">
+  <component name="RunManager" selected="Bash.sh09-2.sh">
     <configuration name="sh09-2.sh" type="BashConfigurationType" factoryName="Bash">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,7 +292,7 @@
       <workItem from="1559355105204" duration="4875000" />
       <workItem from="1559368181332" duration="3853000" />
       <workItem from="1559372711942" duration="1111000" />
-      <workItem from="1559373861947" duration="1140000" />
+      <workItem from="1559373861947" duration="3134000" />
     </task>
     <task id="LOCAL-00001" summary="cc">
       <created>1559373124202</created>
@@ -298,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559374145176</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加for 固定循环脚本2">
+      <created>1559375039094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559375039094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10979000" />
+    <option name="totallyTimeSpent" value="12973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,7 +334,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1589242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1589242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +343,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.33034715" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.33034715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,16 +412,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cc" />
     <MESSAGE value="添加for 固定循环脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加for 固定循环脚本" />
+    <MESSAGE value="添加for 固定循环脚本2" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加for 固定循环脚本2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sh09-2.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sh12.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -451,6 +462,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh17.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh09-2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
