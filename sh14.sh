@@ -26,6 +26,15 @@ do
 done
 echo "The result of '1+2+3+...+$num' is ==> $s"
 
+#使用for。。。do。。。done格式
+read -p "Please input the num you want to calculate: " num
+s=0
+for ((i=0; i<=$num; i=i+1))
+do
+i=$(($i+1))
+s=$(($s+$i))
+done
+echo "The result of '1+2+3+...+$num' is ==> $s"
 
 
 
