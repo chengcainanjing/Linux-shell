@@ -22,7 +22,7 @@ rm -f $tmpfile
 
 echo "-----------------------创建临时目录----------------------"
 tempdir=$(mktemp -d sh27dir.XXXXXX)        #-d选项会强制系统在运行目录下创建临时目录，并返回目录名。
-cd $tmpdir
+cd $tempdir
 
 sh27tempfile1=$(mktemp sh27temp.XXXXXX)
 sh27tempfile2=$(mktemp sh27temp.XXXXXX)
@@ -30,5 +30,5 @@ exec 7> $sh27tempfile1
 exec 8> $sh27tempfile2
 
 echo "Sending data to directory $tempdir"
-echo "This is a test line of data for $tempfile1" >&7
-echo "This is a test line of data for $tempfile2" >&8
+echo "This is a test line of data for $sh27tempfile1" >&7
+echo "This is a test line of data for $sh27tempfile2" >&8
