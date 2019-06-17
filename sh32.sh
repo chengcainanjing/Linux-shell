@@ -9,7 +9,7 @@ export PATH
 
 echo "-----------------------修改或移除捕获----------------------"
 trap "echo 'Sorry! I have trapped ctrl-c'" SIGINT
-trap "echo 'Goodbye...'" EXIT
+trap "echo 'Goodbye...'" EXIT                   #捕获脚本退出
 
 
 echo "This is a test script."
@@ -21,7 +21,7 @@ while [ $count -le 6 ]; do
 done
 
 echo "-----------------------修改捕获----------------------"
-trap "echo 'I modified the trap'" SIGINT
+trap "echo 'I modified the trap'" SIGINT        #修改信号捕获
 count=1
 while [ $count -le 6 ]; do
     echo "SECOND LOOP $count"
@@ -30,7 +30,7 @@ while [ $count -le 6 ]; do
 done
 
 echo "-----------------------移除捕获----------------------"
-trap -- SIGINT
+trap -- SIGINT                                  #-/-- 都可以恢复信号的默认行为
 count=1
 while [ $count -le 6 ]; do
     echo "THIRED LOOP $count"
