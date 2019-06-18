@@ -15,5 +15,5 @@ echo "This should store in the output file"
 echo "alone with this line"
 
 exec 1>&3                           #文件描述符3的输出重定向出现在显示器上
-
+exec 3> sh23out_1.file
 echo "Now things should be back to normal"
