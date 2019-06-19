@@ -2,11 +2,11 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/sh03.sh" line="13" />
+    <bookmark url="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh38-全局变量与局部变量.sh" line="35" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="修改或移除捕获&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sh33-定时任务.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sh33-定时任务-at.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,29 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sh33-定时任务-at.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh34-创建函数.sh">
+        <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh38-全局变量与局部变量.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh39-数组变量和函数.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sh32.sh">
+        <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh36-使用函数返回退出码.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+            <state relative-caret-position="180">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -97,14 +97,18 @@
         <option value="$PROJECT_DIR$/sh33-定时任务.sh" />
         <option value="$PROJECT_DIR$/sh23.sh" />
         <option value="$PROJECT_DIR$/Part3-高级shell脚本编程/sh34-创建函数.sh" />
+        <option value="$PROJECT_DIR$/Part3-高级shell脚本编程/sh35-使用return返回退出码.sh" />
+        <option value="$PROJECT_DIR$/Part3-高级shell脚本编程/sh36-使用函数返回退出码.sh" />
+        <option value="$PROJECT_DIR$/Part3-高级shell脚本编程/sh37-在函数中使用变量.sh" />
+        <option value="$PROJECT_DIR$/Part3-高级shell脚本编程/sh38-全局变量与局部变量.sh" />
+        <option value="$PROJECT_DIR$/Part3-高级shell脚本编程/sh39-数组变量和函数.sh" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="266" />
-    <option name="y" value="53" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="308" />
+    <option name="width" value="1371" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -114,6 +118,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,8 +136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.sh34-创建函数.sh">
+  <component name="RunManager" selected="Bash.sh39-数组变量和函数.sh">
     <configuration name="sh09-2.sh" type="BashConfigurationType" factoryName="Bash">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,66 +185,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sh29.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\sh.exe" />
-      <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell\sh29.sh" />
-      <option name="PARAMETERS" value="sh29input.csv" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sh30.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\sh.exe" />
-      <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell\sh30.sh" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sh31.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\sh.exe" />
-      <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell\sh31.sh" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sh32.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\sh32.sh" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sh34-创建函数.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+    <configuration name="sh35-使用return返回退出码.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\bash.exe" />
       <option name="PROJECT_INTERPRETER" value="false" />
       <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh34-创建函数.sh" />
+      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh35-使用return返回退出码.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sh36-使用函数返回退出码.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\bash.exe" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh36-使用函数返回退出码.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sh37-在函数中使用变量.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\bash.exe" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh37-在函数中使用变量.sh" />
+      <option name="PARAMETERS" value="10  80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sh38-全局变量与局部变量.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\bash.exe" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh38-全局变量与局部变量.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sh39-数组变量和函数.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\bash.exe" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh39-数组变量和函数.sh" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -248,19 +252,19 @@
     </configuration>
     <list>
       <item itemvalue="Bash.sh09-2.sh" />
-      <item itemvalue="Bash.sh29.sh" />
-      <item itemvalue="Bash.sh30.sh" />
-      <item itemvalue="Bash.sh31.sh" />
-      <item itemvalue="Bash.sh32.sh" />
-      <item itemvalue="Bash.sh34-创建函数.sh" />
+      <item itemvalue="Bash.sh35-使用return返回退出码.sh" />
+      <item itemvalue="Bash.sh36-使用函数返回退出码.sh" />
+      <item itemvalue="Bash.sh37-在函数中使用变量.sh" />
+      <item itemvalue="Bash.sh38-全局变量与局部变量.sh" />
+      <item itemvalue="Bash.sh39-数组变量和函数.sh" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Bash.sh34-创建函数.sh" />
-        <item itemvalue="Bash.sh32.sh" />
-        <item itemvalue="Bash.sh31.sh" />
-        <item itemvalue="Bash.sh30.sh" />
-        <item itemvalue="Bash.sh29.sh" />
+        <item itemvalue="Bash.sh39-数组变量和函数.sh" />
+        <item itemvalue="Bash.sh38-全局变量与局部变量.sh" />
+        <item itemvalue="Bash.sh37-在函数中使用变量.sh" />
+        <item itemvalue="Bash.sh36-使用函数返回退出码.sh" />
+        <item itemvalue="Bash.sh35-使用return返回退出码.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +288,8 @@
       <workItem from="1560566737370" duration="6217000" />
       <workItem from="1560577708221" duration="3155000" />
       <workItem from="1560752586584" duration="7473000" />
-      <workItem from="1560819334268" duration="3464000" />
+      <workItem from="1560819334268" duration="8281000" />
+      <workItem from="1560909841525" duration="11764000" />
     </task>
     <task id="LOCAL-00001" summary="cc">
       <created>1559373124202</created>
@@ -363,11 +368,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560818340992</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="更新定时任务&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <created>1560836732298</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560836732298</updated>
+    </task>
+    <task id="LOCAL-00013" summary="创建函数&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <created>1560836755579</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560836755579</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76561000" />
+    <option name="totallyTimeSpent" value="93142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,10 +398,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="825" y="0" width="854" height="1010" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.1717604" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" weight="0.2141791" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.16442543" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49816626" weight="0.33034715" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49755502" visible="true" weight="0.22462942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,7 +419,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49938875" weight="0.29451287" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922733" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50183374" side_tool="true" weight="0.33034715" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502445" side_tool="true" weight="0.2206047" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -411,7 +430,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="SciView" order="9" weight="0.32985073" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +499,9 @@
     <MESSAGE value="捕获信号，已测试通过&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新23脚本&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="定时任务at&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <option name="LAST_COMMIT_MESSAGE" value="定时任务at&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="更新定时任务&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="创建函数&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建函数&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sh02.sh">
@@ -725,24 +746,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sh32.sh">
+    <entry file="file://$PROJECT_DIR$/sh33-定时任务-at.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh34-创建函数.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sh33-定时任务-at.sh">
+    <entry file="file://$PROJECT_DIR$/sh32.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="198">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh35-使用return返回退出码.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="12" column="5" lean-forward="true" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh37-在函数中使用变量.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh36-使用函数返回退出码.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh38-全局变量与局部变量.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sh39-数组变量和函数.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
