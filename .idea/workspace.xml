@@ -5,8 +5,10 @@
     <bookmark url="file://$PROJECT_DIR$/Part3-高级shell脚本编程/脚本函数/sh38-全局变量与局部变量.sh" line="35" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="">
+    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <change afterPath="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户-Delete_User.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh52-查看磁盘目录使用情况.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户-Delete_User.sh">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh52-查看磁盘目录使用情况.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="211" column="1" lean-forward="true" selection-start-line="200" selection-end-line="211" selection-end-column="1" />
+            <state relative-caret-position="115">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -132,9 +143,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="835" />
     <option name="width" value="863" />
     <option name="height" value="1010" />
   </component>
@@ -145,7 +155,32 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shell_chengcai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shell_chengcai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
+              <item name="Part4-创建实用的脚本" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shell_chengcai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
+              <item name="Part4-创建实用的脚本" type="462c0819:PsiDirectoryNode" />
+              <item name="编写简单的脚本使用工具" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -315,7 +350,8 @@
       <workItem from="1563323436441" duration="3681000" />
       <workItem from="1563757023689" duration="2626000" />
       <workItem from="1563843332844" duration="979000" />
-      <workItem from="1564051668203" duration="2310000" />
+      <workItem from="1564051668203" duration="3695000" />
+      <workItem from="1564705722791" duration="3034000" />
     </task>
     <task id="LOCAL-00001" summary="cc">
       <created>1559373124202</created>
@@ -464,11 +500,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563180656037</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="管理用户账户&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <created>1564054144463</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1564054144463</updated>
+    </task>
+    <task id="LOCAL-00023" summary="管理用户账户&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <created>1564708406585</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1564708406585</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149538000" />
+    <option name="totallyTimeSpent" value="153957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,10 +530,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="823" y="0" width="857" height="1009" extended-state="0" />
-    <editor active="true" />
+    <frame x="835" y="0" width="863" height="1010" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" weight="0.27439725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.2739726" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.16442543" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,18 +540,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.23287672" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.22805017" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49755502" weight="0.22462942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49938875" weight="0.24300112" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49938875" weight="0.2425968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502445" side_tool="true" weight="0.21917808" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32839224" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.327252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -514,6 +563,38 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="SciView" order="9" weight="0.32985073" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.2739726" />
+      <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.16442543" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22844344" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49755502" weight="0.22462942" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49938875" weight="0.2425968" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922733" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502445" side_tool="true" weight="0.21917808" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.327252" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32955974" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="SciView" order="9" weight="0.32985073" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -591,16 +672,11 @@
     <MESSAGE value="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="添加归档脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="管理用户账户&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <option name="LAST_COMMIT_MESSAGE" value="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sh16.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testout" />
     <entry file="file://$PROJECT_DIR$/testerror" />
     <entry file="file://$PROJECT_DIR$/sh17.sh">
@@ -625,11 +701,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sh29members.sql" />
     <entry file="file://$PROJECT_DIR$/sh29input.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
@@ -637,6 +708,11 @@
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sh26.sh">
@@ -898,10 +974,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户-Delete_User.sh">
+    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh52-查看磁盘目录使用情况.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="211" column="1" lean-forward="true" selection-start-line="200" selection-end-line="211" selection-end-column="1" />
+        <state relative-caret-position="115">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
