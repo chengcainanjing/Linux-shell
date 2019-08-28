@@ -5,7 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/Part3-高级shell脚本编程/脚本函数/sh38-全局变量与局部变量.sh" line="35" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="更新软件配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh55-备份最后一天所有修改的文件.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="432">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -246,6 +246,13 @@
               <item name="shell_chengcai" type="b2602c69:ProjectViewProjectNode" />
               <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
               <item name="Part4-创建实用的脚本" type="462c0819:PsiDirectoryNode" />
+              <item name="一些小有意思的脚本" type="462c0819:PsiDirectoryNode" />
+              <item name="fssDeployUtil_V1.50_130" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shell_chengcai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
+              <item name="Part4-创建实用的脚本" type="462c0819:PsiDirectoryNode" />
               <item name="编写简单的脚本使用工具" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -427,7 +434,7 @@
       <workItem from="1565419561347" duration="2216000" />
       <workItem from="1565701439255" duration="5949000" />
       <workItem from="1566539351158" duration="5707000" />
-      <workItem from="1566875608878" duration="3739000" />
+      <workItem from="1566875608878" duration="4253000" />
     </task>
     <task id="LOCAL-00001" summary="cc">
       <created>1559373124202</created>
@@ -611,11 +618,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565419971610</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="更新软件配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <created>1566981570838</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1566981570838</updated>
+    </task>
+    <task id="LOCAL-00028" summary="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <created>1566981871767</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1566981871767</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176175000" />
+    <option name="totallyTimeSpent" value="176689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,7 +651,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" weight="0.31195337" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.31173593" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.16442543" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -645,7 +666,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49938875" weight="0.24173318" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49938875" visible="true" weight="0.2418813" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502445" side_tool="true" weight="0.21917808" />
@@ -767,14 +788,14 @@
     <MESSAGE value="创建库&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新代码&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="创建脚本编程&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <MESSAGE value="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="添加归档脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="管理用户账户&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新脚本名字&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新软件配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新软件配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sh09-2.sh">
@@ -1120,8 +1141,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh55-备份最后一天所有修改的文件.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="432">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
