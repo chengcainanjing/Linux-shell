@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/Part3-高级shell脚本编程/脚本函数/sh38-全局变量与局部变量.sh" line="35" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,7 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -527,11 +526,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564708406585</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="更新配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <created>1568710720246</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1568710720247</updated>
+    </task>
+    <task id="LOCAL-00025" summary="编写简单的脚本使用工具&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+      <created>1568710760732</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568710760732</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157514000" />
+    <option name="totallyTimeSpent" value="157758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,7 +558,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.31540343" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.31540343" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.16442543" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -560,10 +573,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49755502" visible="true" weight="0.2418813" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49755502" visible="true" weight="0.2418813" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922733" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502445" side_tool="true" visible="true" weight="0.2418813" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502445" side_tool="true" weight="0.2418813" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.327252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -684,10 +697,11 @@
     <MESSAGE value="创建脚本编程&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="添加归档脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <MESSAGE value="更新配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="管理用户账户&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <option name="LAST_COMMIT_MESSAGE" value="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="更新配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="编写简单的脚本使用工具&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写简单的脚本使用工具&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sh17.sh">
