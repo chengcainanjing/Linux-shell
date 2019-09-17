@@ -5,7 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/Part3-高级shell脚本编程/脚本函数/sh38-全局变量与局部变量.sh" line="35" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
+    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,111 +32,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh53-服务器线程数达到2500以上时dump线程数最多的java进程的线程及内存.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh54-清除varlog下的log文件.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh55-备份最后一天所有修改的文件.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/pax_global_header">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/1-100.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/猜随机数.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_check.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/config/fss.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1818">
-              <caret line="101" column="27" selection-start-line="101" selection-end-line="101" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_service.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>··</find>
       <find>date</find>
-      <find>history_fss_data_n_project_v1_2</find>
-      <find>fss.es.index.history.prefix</find>
-      <find>cloudera_res</find>
-      <find>main</find>
-      <find>menu</find>
-      <find>check</find>
-      <find>bigDataServiceCheck</find>
-      <find>clouderaCheck</find>
-      <find>bigDataSearchSummary</find>
-      <find>streamingSummary</find>
-      <find>$application_name</find>
-      <find>application_name</find>
     </findStrings>
     <dirStrings>
       <dir>D:\程才资料\读书心得-程才\Linux\shell</dir>
@@ -149,6 +50,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/sh15.sh" />
+        <option value="$PROJECT_DIR$/sh17.sh" />
+        <option value="$PROJECT_DIR$/sh16.sh" />
+        <option value="$PROJECT_DIR$/sh14.sh" />
+        <option value="$PROJECT_DIR$/sh01.sh" />
         <option value="$PROJECT_DIR$/sh02.sh" />
         <option value="$PROJECT_DIR$/sh03.sh" />
         <option value="$PROJECT_DIR$/sh04.sh" />
@@ -195,11 +101,6 @@
         <option value="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh50-归档脚本-Hourly_Archive.sh" />
         <option value="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh50-管理用户账户-Delete_User.sh" />
         <option value="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户-Delete_User.sh" />
-        <option value="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh53-服务器线程数达到2500以上时dump线程数最多的java进程的线程及内存.sh" />
-        <option value="$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/1-100.sh" />
-        <option value="$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_check.sh" />
-        <option value="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh54-清除varlog下的log文件.sh" />
-        <option value="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh55-备份最后一天所有修改的文件.sh" />
       </list>
     </option>
   </component>
@@ -218,7 +119,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,23 +142,11 @@
               <item name="Part4-创建实用的脚本" type="462c0819:PsiDirectoryNode" />
               <item name="一些小有意思的脚本" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="shell_chengcai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
-              <item name="Part4-创建实用的脚本" type="462c0819:PsiDirectoryNode" />
-              <item name="一些小有意思的脚本" type="462c0819:PsiDirectoryNode" />
-              <item name="fssDeployUtil_V1.50_130" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shell_chengcai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
-              <item name="Part4-创建实用的脚本" type="462c0819:PsiDirectoryNode" />
-              <item name="编写简单的脚本使用工具" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +154,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shell_author" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -279,10 +167,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part4-创建实用的脚本\编写简单的脚本使用工具" />
-      <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part4-创建实用的脚本\一些小有意思的脚本" />
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sed进阶" />
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\正则表达式" />
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\初识sed和gawk" />
+      <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\脚本函数" />
@@ -430,11 +318,7 @@
       <workItem from="1563757023689" duration="2626000" />
       <workItem from="1563843332844" duration="979000" />
       <workItem from="1564051668203" duration="3695000" />
-      <workItem from="1564705722791" duration="7641000" />
-      <workItem from="1565419561347" duration="2216000" />
-      <workItem from="1565701439255" duration="5949000" />
-      <workItem from="1566539351158" duration="5707000" />
-      <workItem from="1566875608878" duration="4253000" />
+      <workItem from="1564705722791" duration="3034000" />
     </task>
     <task id="LOCAL-00001" summary="cc">
       <created>1559373124202</created>
@@ -597,46 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564708406585</updated>
     </task>
-    <task id="LOCAL-00024" summary="更新脚本名字&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
-      <created>1564708795172</created>
+    <task id="LOCAL-00024" summary="Revert &quot;更新软件配置&quot;&#10;&#10;This reverts commit 80bcaf02">
+      <created>1568702985791</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1564708795172</updated>
+      <updated>1568702985791</updated>
     </task>
-    <task id="LOCAL-00025" summary="更新软件配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
-      <created>1564708848058</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1564708848058</updated>
-    </task>
-    <task id="LOCAL-00026" summary="更新软件配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
-      <created>1565419971610</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1565419971610</updated>
-    </task>
-    <task id="LOCAL-00027" summary="更新软件配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
-      <created>1566981570838</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1566981570838</updated>
-    </task>
-    <task id="LOCAL-00028" summary="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)">
-      <created>1566981871767</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1566981871767</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176689000" />
+    <option name="totallyTimeSpent" value="154570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,10 +504,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.31173593" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.31540343" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.16442543" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -659,7 +514,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.22805017" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.22805017" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49755502" weight="0.22462942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -717,6 +572,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -788,16 +653,30 @@
     <MESSAGE value="创建库&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新代码&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="创建脚本编程&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="添加归档脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="更新配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="管理用户账户&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
     <MESSAGE value="查看磁盘目录使用情况&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <MESSAGE value="更新脚本名字&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <MESSAGE value="更新软件配置&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <MESSAGE value="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新脚本&#10;&#10;(cherry picked from commit 19ce916c63a6cc68f03097dc0da0574d77669440)" />
+    <MESSAGE value="Revert &quot;更新软件配置&quot;&#10;&#10;This reverts commit 80bcaf02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;更新软件配置&quot;&#10;&#10;This reverts commit 80bcaf02" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testout" />
+    <entry file="file://$PROJECT_DIR$/testerror" />
+    <entry file="file://$PROJECT_DIR$/sh17.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh20-testerror" />
+    <entry file="file://$PROJECT_DIR$/sh20-testout" />
+    <entry file="file://$PROJECT_DIR$/sh22.outfile" />
+    <entry file="file://$PROJECT_DIR$/sh23.outfile" />
+    <entry file="file://$PROJECT_DIR$/sh26.outfile" />
+    <entry file="file://$PROJECT_DIR$/members.sql" />
     <entry file="file://$PROJECT_DIR$/sh09-2.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -812,13 +691,13 @@
           <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sh26.sh">
@@ -1082,74 +961,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh52-查看磁盘目录使用情况.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="115">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh53-服务器线程数达到2500以上时dump线程数最多的java进程的线程及内存.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_check.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/config/fss.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1818">
-          <caret line="101" column="27" selection-start-line="101" selection-end-line="101" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_service.sh">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh51-管理用户账户.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/1-100.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/猜随机数.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh54-清除varlog下的log文件.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh55-备份最后一天所有修改的文件.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/pax_global_header">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
