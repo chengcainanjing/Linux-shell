@@ -1,0 +1,5 @@
+﻿./fss_check.sh summary es_ip               查看所有服务状态
+./fss_check.sh service_summary es_ip       查看大数据服务引擎状态，包括：Cloudera状态、Spark Streaming状态、
+                                           HBase表格状态、Kafka Topic状态
+./fss_check.sh search_summary es_ip        查看大数据搜索引擎状态，包括：Elasticsearch状态、Elasticsearch Index状态
+                                           HBase Indexer状态、Elasticsearch插件、Elasticsearch定时任务
