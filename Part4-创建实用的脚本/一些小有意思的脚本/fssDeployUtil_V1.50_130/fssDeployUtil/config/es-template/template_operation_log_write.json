@@ -1,0 +1,29 @@
+{ "template": "operation_log_write*",
+  "order": 0,
+  "settings": {
+    "number_of_shards": 5,
+    "number_of_replicas": 1
+   },
+	"mappings":{
+		"operation_log_write":{
+			"properties":{
+				"operation_id":{
+					"type":"keyword"
+				},
+				"operation_desc":{
+					"type":"text"
+				},
+				"user_name":{
+					"type":"keyword"
+				},
+				"remote_ip":{
+					"type":"keyword"
+				},
+				"operation_time":{
+					"type":"date"
+				}
+			}
+		}
+	}
+
+}

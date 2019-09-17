@@ -1,0 +1,34 @@
+{
+    "order" : 0,
+    "template" : "test_strangerperson_list_data_v1_2*",
+    "settings" : {
+      "index" : {
+        "number_of_shards" : "8",
+        "number_of_replicas" : "0"
+      }
+    },
+    "mappings" : {
+      "strangerperson_list_data" : {
+        "_field_names" : {
+          "enabled" : false
+        },
+        "_all" : {
+          "enabled" : false
+        },
+        "properties" : {
+          "person_id" : {
+            "index" : "not_analyzed",
+            "type" : "keyword"
+          },
+          "rt_feature" : {
+            "type": "binary",
+            "doc_values": true
+          },
+          "occur_num" : {
+            "index" :"not_analyzed",
+            "type" : "keyword"
+          }
+        }
+      }
+    }
+}'

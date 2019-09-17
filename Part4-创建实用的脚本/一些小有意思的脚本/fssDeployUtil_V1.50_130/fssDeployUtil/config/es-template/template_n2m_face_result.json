@@ -1,0 +1,62 @@
+{ "template": "n2m_face_result*",
+  "order": 0,
+  "settings": {
+    "number_of_shards": 5,
+    "number_of_replicas": 1
+  },
+	"mappings":{
+		"n2m_face_result":{
+			"properties":{
+				"editor_id":{
+					"type":"keyword"
+				},
+				"editor_name":{
+					"type":"keyword"
+				},
+				"lib_id1":{
+					"type":"integer"
+				},
+				"lib_id2":{
+					"type":"integer"
+				},
+				"person_id1":{
+					"type":"keyword"
+				},
+				"person_id2":{
+					"type":"keyword"
+				},
+				"task_id":{
+					"type":"keyword"
+				},
+				"card_id1":{
+					"type":"keyword"
+				},
+				"card_id2":{
+					"type":"keyword"
+				},
+				"person_name1":{
+					"type":"keyword"
+				},
+				"person_name2":{
+					"type":"keyword"
+				},
+				"last_editor_time":{
+					"type":"date"
+				},
+				"remark":{
+					"type":"keyword"
+				},
+				"compare_sim":{
+					"type":"float"
+				},
+				"compare_time":{
+					"type":"date"
+				},
+				"reserve":{
+					"type":"keyword"
+				}
+			}
+		}
+	}
+
+}

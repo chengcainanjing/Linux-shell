@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Copyright 2017 ZNV
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<indexer table="FSS_DEVELOP_410:FSS_PERSONLIST_V1_1_3_20170727" read-row="dynamic_es" es-id-adding="com.ngdata.hbaseindexer.indexer.PersonListIdAddingEsUpdateWriter">
+    <field name="person_name" value="ATTR:PERSON_NAME"/>
+    <field name="birth" value="ATTR:BIRTH"/>
+    <field name="nation" value="ATTR:NATION"/>
+    <field name="country" value="ATTR:COUNTRY"/>
+    <field name="addr" value="ATTR:ADDR"/>
+    <field name="tel" value="ATTR:TEL"/>
+    <field name="nature_residence" value="ATTR:NATURE_RESIDENCE"/>
+    <field name="room_number" value="ATTR:ROOM_NUMBER"/>
+    <field name="door_open" value="ATTR:DOOR_OPEN" type="int"/>
+    <field name="sex" value="ATTR:SEX" type="int"/>
+    <field name="image_name" value="ATTR:IMAGE_NAME"/>
+    <field name="feature" value="FEATURE:FEATURE" type="byte[]"/>
+    <field name="feature2" value="FEATURE:FEATURE2" type="byte[]"/>
+    <field name="feature3" value="FEATURE:FEATURE3" type="byte[]"/>
+    <field name="feature4" value="FEATURE:FEATURE4" type="byte[]"/>
+    <field name="feature5" value="FEATURE:FEATURE5" type="byte[]"/>
+    <field name="feature6" value="FEATURE:FEATURE6" type="byte[]"/>
+    <field name="feature7" value="FEATURE:FEATURE7" type="byte[]"/>
+    <field name="feature8" value="FEATURE:FEATURE8" type="byte[]"/>
+    <field name="card_id" value="ATTR:CARD_ID"/>
+    <field name="flag" value="ATTR:FLAG" type="int"/>
+    <field name="comment" value="ATTR:COMMENT"/>
+    <field name="control_start_time" value="ATTR:CONTROL_START_TIME" type="Date"/>
+    <field name="control_end_time" value="ATTR:CONTROL_END_TIME" type="Date"/>
+    <field name="is_del" value="ATTR:IS_DEL"/>
+    <field name="create_time" value="ATTR:CREATE_TIME" type="Date"/>
+    <field name="modify_time" value="ATTR:MODIFY_TIME" type="Date"/>
+    <field name="community_id" value="ATTR:COMMUNITY_ID"/>
+    <field name="community_name" value="ATTR:COMMUNITY_NAME"/>
+    <field name="control_community_id" value="ATTR:CONTROL_COMMUNITY_ID"/>
+    <field name="control_person_id" value="ATTR:CONTROL_PERSON_ID"/>
+    <field name="control_event_id" value="ATTR:CONTROL_EVENT_ID"/>
+    <field name="image_id" value="ATTR:IMAGE_ID"/>
+    <field name="personlib_type" value="ATTR:PERSONLIB_TYPE" type="int"/>
+    <field name="Info_kind" value="ATTR:INFO_KIND" type="int"/>
+    <field name="source_id" value="ATTR:SOURCE_ID"/>
+    <field name="device_id" value="ATTR:DEVICE_ID"/>
+    <field name="left_topx" value="ATTR:LEFT_TOPX" type="int"/>
+    <field name="left_topy" value="ATTR:LEFT_TOPY" type="int"/>
+    <field name="right_btmx" value="ATTR:RIGHT_BTMX" type="int"/>
+    <field name="right_btmy" value="ATTR:RIGHT_BTMY" type="int"/>
+    <field name="location_mark_time" value="ATTR:LOCATION_MARK_TIME" type="Date"/>
+    <field name="face_ap_time" value="ATTR:FACE_AP_TIME" type="Date"/>
+    <field name="face_disap_time" value="ATTR:FACE_DISAP_TIME" type="Date"/>
+    <field name="id_type" value="ATTR:ID_TYPE"/>
+    <field name="used_name" value="ATTR:USED_NAME"/>
+    <field name="alias" value="ATTR:ALIAS"/>
+    <field name="max_age" value="ATTR:MAX_AGE" type="int"/>
+    <field name="min_age" value="ATTR:MIN_AGE" type="int"/>
+    <field name="native_city" value="ATTR:NATIVE_CITY"/>
+    <field name="res_admin_divison" value="ATTR:RES_ADMIN_DIVISON"/>
+    <field name="chinese_accent" value="ATTR:CHINESE_ACCENT"/>
+    <field name="job_category" value="ATTR:JOB_CATEGORY"/>
+    <field name="peer_number" value="ATTR:PEER_NUMBER" type="int"/>
+    <field name="skin_color" value="ATTR:SKIN_COLOR"/>
+    <field name="hair_style" value="ATTR:HAIR_STYLE"/>
+    <field name="hair_color" value="ATTR:HAIR_COLOR"/>
+    <field name="face_style" value="ATTR:FACE_STYLE"/>
+    <field name="facial_feature" value="ATTR:FACIAL_FEATURE"/>
+    <field name="physical_feature" value="ATTR:PHYSICAL_FEATURE"/>
+    <field name="respirator_color" value="ATTR:RESPIRATOR_COLOR"/>
+    <field name="cap_style" value="ATTR:CAP_STYLE"/>
+    <field name="cap_color" value="ATTR:CAP_COLOR"/>
+    <field name="glass_style" value="ATTR:GLASS_STYLE"/>
+    <field name="glass_color" value="ATTR:GLASS_COLOR"/>
+    <field name="is_driver" value="ATTR:IS_DRIVER" type="int"/>
+    <field name="is_foreigner" value="ATTR:IS_FOREIGNER" type="int"/>
+    <field name="passport_type" value="ATTR:PASSPORT_TYPE"/>
+    <field name="immigrant_type" value="ATTR:IMMIGRANT_TYPE"/>
+    <field name="is_terrorist" value="ATTR:IS_TERRORIST" type="int"/>
+    <field name="terrorist_number" value="ATTR:TERRORIST_NUMBER"/>
+    <field name="is_criminal" value="ATTR:IS_CRIMINAL" type="int"/>
+    <field name="criminal_speciality" value="ATTR:CRIMINAL_SPECIALITY"/>
+    <field name="body_special_mark" value="ATTR:BODY_SPECIAL_MARK"/>
+    <field name="crime_method" value="ATTR:CRIME_METHOD"/>
+    <field name="crime_character" value="ATTR:CRIME_CHARACTER"/>
+    <field name="escapee_number" value="ATTR:ESCAPEE_NUMBER"/>
+    <field name="is_detainees" value="ATTR:IS_DETAINEES" type="int"/>
+    <field name="detection_house" value="ATTR:DETECTION_HOUSE"/>
+    <field name="detainees_identity" value="ATTR:DETAINEES_IDENTITY"/>
+    <field name="detainees_special_identity" value="ATTR:DETAINEES_SPECIAL_IDENTITY"/>
+    <field name="member_type" value="ATTR:MEMBER_TYPE"/>
+    <field name="is_victim" value="ATTR:IS_VICTIM" type="int"/>
+    <field name="victim_type" value="ATTR:VICTIM_TYPE"/>
+    <field name="injured_degree" value="ATTR:INJURED_DEGREE"/>
+    <field name="corpse_condition" value="ATTR:CORPSE_CONDITION"/>
+    <field name="is_suspect" value="ATTR:IS_SUSPECT" type="int"/>
+    <field name="attitude" value="ATTR:ATTITUDE" type="int"/>
+    <field name="similarity_degree" value="ATTR:SIMILARITY_DEGREE" type="double"/>
+    <field name="eyebrow_style" value="ATTR:EYEBROW_STYLE"/>
+    <field name="nose_style" value="ATTR:NOSE_STYLE"/>
+    <field name="mustache_style" value="ATTR:MUSTACHE_STYLE"/>
+    <field name="lip_style" value="ATTR:LIP_STYLE"/>
+    <field name="wrinkle_pouch" value="ATTR:WRINKLE_POUCH"/>
+    <field name="acne_stain" value="ATTR:ACNE_STAIN"/>
+    <field name="freckle_birthmark" value="ATTR:FRECKLE_BIRTHMARK"/>
+    <field name="scar_dimple" value="ATTR:SCAR_DIMPLE"/>
+    <field name="other_feature" value="ATTR:OTHER_FEATURE"/>
+    <field name="control_police_category" value="ATTR:CONTROL_POLICE_CATEGORY" type="int"/>
+    <field name="control_person_tel" value="ATTR:CONTROL_PERSON_TEL"/>
+    <field name="description" value="ATTR:DESCRIPTION"/>
+    <field name="belong_police_station" value="ATTR:BELONG_POLICE_STATION"/>
+    <field name="control_person_name" value="ATTR:CONTROL_PERSON_NAME"/>
+    <field name="card_type" value="ATTR:CARD_TYPE" type="int"/>
+    <field name="alarm_level" value="ATTR:ALARM_LEVEL" type="int"/>
+</indexer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Copyright 2017 ZNV
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<indexer table="FSS_V1_2:FSS_ALARM" read-row="dynamic_es" es-id-adding="com.ngdata.hbaseindexer.indexer.AlarmIdAddingEsUpdateWriterNew">
+  <field name="alarm_type" value="ATTR:ALARM_TYPE" type="int"/>
+  <field name="person_id" value="ATTR:PERSON_ID"/>
+  <field name="person_name" value="ATTR:PERSON_NAME"/>
+  <field name="lib_id" value="ATTR:LIB_ID" type="int"/>
+  <field name="camera_id" value="ATTR:CAMERA_ID"/>
+  <field name="camera_name" value="ATTR:CAMERA_NAME"/>
+  <field name="camera_type" value="ATTR:CAMERA_TYPE" type="int"/>
+  <field name="enter_time" value="ATTR:ENTER_TIME" type="Date"/>
+  <field name="leave_time" value="ATTR:LEAVE_TIME" type="Date"/>
+  <field name="duration_time" value="ATTR:DURATION_TIME" type="long"/>
+  <field name="office_id" value="ATTR:OFFICE_ID"/>
+  <field name="office_name" value="ATTR:OFFICE_NAME"/>
+  <field name="op_time" value="ATTR:OP_TIME" type="Date"/>
+  <field name="frame_index" value="ATTR:FRAME_INDEX" type="int"/>
+  <field name="task_idx" value="ATTR:TASK_IDX"/>
+  <field name="track_idx" value="ATTR:TRACK_IDX"/>
+  <field name="rt_feature" value="FEATURE:RT_FEATURE" type="byte[]"/>
+  <field name="img_width" value="ATTR:IMG_WIDTH" type="int"/>
+  <field name="img_height" value="ATTR:IMG_HEIGHT" type="int"/>
+  <field name="img_url" value="ATTR:IMG_URL"/>
+  <field name="need_confirm" value="ATTR:NEED_CONFIRM" type="int"/>
+  <field name="confirm_status" value="ATTR:CONFIRM_STATUS" type="int"/>
+  <field name="confirm_by" value="ATTR:CONFIRM_BY"/>
+  <field name="confirm_time" value="ATTR:CONFIRM_TIME" type="Date"/>
+  <field name="confirm_comment" value="ATTR:COMFIRM_COMMENT"/>
+  <field name="alarm_duration" value="ATTR:ALARM_DURATION" type="long"/>
+  <field name="first_relation_id" value="ATTR:FIRST_RELATION_ID"/>
+  <field name="first_relation_name" value="ATTR:FIRST_RELATION_NAME"/>
+  <field name="first_relation_tel" value="ATTR:FIRST_RELATION_TEL"/>
+  <field name="first_relation_type" value="ATTR:FIRST_RELATION_TYPE" type="int"/>
+  <field name="big_picture_uuid" value="ATTR:BIG_PICTURE_UUID"/>
+  <field name="birth" value="ATTR:BIRTH"/>
+  <field name="control_event_id" value="ATTR:CONTROL_EVENT_ID"/>
+  <field name="similarity" value="ATTR:SIMILARITY" type="float"/>
+  <field name="left_pos" value="ATTR:LEFT_POS" type="int"/>
+  <field name="top" value="ATTR:TOP" type="int"/>
+  <field name="right_pos" value="ATTR:RIGHT_POS" type="int"/>
+  <field name="bottom" value="ATTR:BOTTOM" type="int"/> 
+  <field name="notification_id" value="ATTR:NOTIFICATION_ID"/>
+  <field name="disposition_id" value="ATTR:DISPOSITION_ID"/>
+  <field name="title" value="ATTR:TITLE"/>
+  <field name="person_object" value="ATTR:PERSON_OBJECT"/>
+</indexer>
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

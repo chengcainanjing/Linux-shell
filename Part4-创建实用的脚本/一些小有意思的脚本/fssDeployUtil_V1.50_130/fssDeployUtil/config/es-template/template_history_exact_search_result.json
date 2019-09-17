@@ -1,0 +1,112 @@
+{
+  "template": "history_exact_search_result*",
+  "order": 0,
+  "settings": {
+    "number_of_shards": 8,
+    "number_of_replicas": 0
+  },  
+  "mappings": {
+    "history_data": {
+      "_all": {
+        "enabled": false
+      },
+      "_field_names": {
+        "enabled": false
+      },	 
+      "properties": {
+	  "uuid":{
+          "type": "keyword",
+          "index": "no"
+        },
+	   "img_url": {
+          "type": "keyword",
+          "index": "no"
+        },
+	   "person_id":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+		"person_name":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },	    
+	    "camera_id": {
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "camera_name": {
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "enter_time": {
+          "type": "date",
+          "index": "not_analyzed"
+        },
+		"leave_time": {
+          "type": "date",
+          "index": "not_analyzed"
+        },
+	    "office_id": {
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "office_name": {
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+	    "op_time": {
+          "type": "date",
+          "index": "not_analyzed"
+        },
+		"similarity": {
+          "type": "float",
+          "index": "not_analyzed"
+        },
+		"big_picture_uuid":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },	
+		"lib_id":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+		"is_alarm":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+		"img_width": {
+          "type": "integer",
+          "index": "no"
+        },
+        "img_height": {
+          "type": "integer",
+          "index": "no"
+        },
+		"left_pos": {
+          "type": "integer",
+          "index": "no"
+        },
+        "top": {
+          "type": "integer",
+          "index": "no"
+        },
+		"event_id": {
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+		"index_name": {
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+		"search_number":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+		"status_code":{
+          "type": "integer",
+          "index": "not_analyzed"
+        }
+      }
+    }
+  }
+}

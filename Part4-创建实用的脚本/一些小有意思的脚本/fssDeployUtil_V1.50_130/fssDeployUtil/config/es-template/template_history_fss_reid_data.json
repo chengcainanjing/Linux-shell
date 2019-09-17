@@ -1,0 +1,564 @@
+{
+    "template": "history_fss_reid_data*",
+    "order": 0,
+    "settings": {
+        "number_of_shards": 18,
+        "number_of_replicas": 0
+    },
+    "mappings": {
+        "history_data": {
+            "_all": {
+                "enabled": false
+            },
+            "_field_names": {
+                "enabled": false
+            },
+            "properties": {
+                "serial_number": { // 任务 id
+                    "type": "keyword"
+                },
+                "uuid": { // 唯一标识
+                    "type": "keyword",
+                    "index": false,
+                    "doc_values": false
+                },
+                "service_provider": { // 服务商，商汤，千视通，手动？
+                    "type": "keyword"
+                },
+                "info_source": { // 信息来源，1 图片，2 视频
+                    "type": "keyword"
+                },
+                "task_type": { // 类型，人，车辆，人骑车，根据产商决定
+                    "type": "keyword"
+                },
+                "image_id": { // 图片id，由图片传入
+                    "type": "keyword"
+                },
+                "object_id": { // 目标编号，由结构化服务返回
+                    "type": "keyword"
+                },
+                "index": { // 目标索引，由结构化服务返回
+                    "type": "keyword"
+                },
+                "big_img_url": { // 大图路径，http，若是图片信息结构化，则此路径是本地路径
+                    "type": "keyword"
+                },
+                "img_url": { // 小图地址
+                    "type": "keyword",
+                    "index": false
+                },
+                "feature": { // 结构化特征
+                    "type": "keyword",
+                    "index": false,
+                    "doc_values": false
+                },
+                "object_bounding_box": { // 物体在图片的位置
+                    "type": "object",
+                    "properties": {
+                        "x": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "y": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "w": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "h": {
+                            "type": "integer",
+                            "index": false
+                        }
+                    }
+                },
+                "head_bounding_box": { // 头部在图片的位置
+                    "type": "object",
+                    "properties": {
+                        "x": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "y": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "w": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "h": {
+                            "type": "integer",
+                            "index": false
+                        }
+                    }
+                },
+                "upper_bounding_box": { // 上半身在图片的位置
+                    "type": "object",
+                    "properties": {
+                        "x": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "y": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "w": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "h": {
+                            "type": "integer",
+                            "index": false
+                        }
+                    }
+                },
+                "lower_bounding_box": { // 下半身在图片的位置
+                    "type": "object",
+                    "properties": {
+                        "x": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "y": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "w": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "h": {
+                            "type": "integer",
+                            "index": false
+                        }
+                    }
+                },
+                "face_bounding_box": { // 脸部在图片的位置
+                    "type": "object",
+                    "properties": {
+                        "x": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "y": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "w": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "h": {
+                            "type": "integer",
+                            "index": false
+                        }
+                    }
+                },
+                "startframeidx": { // 目标出现的帧序
+                    "type": "integer",
+                    "index": false
+                },
+                "endframeidx": { // 目标消失的帧序
+                    "type": "integer",
+                    "index": false
+                },
+                "startframepts": { // 目标出现的时间戳
+                    "type": "long",
+                    "index": false
+                },
+                "endframepts": { // 目标消失的时间戳
+                    "type": "long",
+                    "index": false
+                },
+                "create_time": { // 经过校正后的时间(经过时间)
+                    "type": "date",
+                    "format": "yyyy-mm-dd hh:mm:ss||yyyy-mm-dd||epoch_millis"
+                },
+                "snapshot": { // 视频快照信息
+                    "type": "object",
+                    "properties": {
+                        "frameidx": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "width": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "height": {
+                            "type": "integer",
+                            "index": false
+                        },
+                        "boundingbox": {
+                            "type": "object",
+                            "properties": {
+                                "x": {
+                                    "type": "integer",
+                                    "index": false
+                                },
+                                "y": {
+                                    "type": "integer",
+                                    "index": false
+                                },
+                                "w": {
+                                    "type": "integer",
+                                    "index": false
+                                },
+                                "h": {
+                                    "type": "integer",
+                                    "index": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "gender": { // 性别
+                    "type": "keyword"
+                },
+                "age": { // 年龄，小孩 青年 中年 老年 未知
+                    "type": "keyword"
+                },
+                "skin_color": { // 肤色
+                    "type": "keyword"
+                },
+                "hair_style": { // 发型
+                    "type": "keyword"
+                },
+                "hair_color": { // 发色
+                    "type": "keyword"
+                },
+                "face_style": { // 脸型
+                    "type": "keyword"
+                },
+                "facial_feature": { // 脸部特征，是否有必要？是否能自动识别？
+                    "type": "text"
+                },
+                "physical_feature": { // 体貌特征，是否有必要？是否能自动识别？
+                    "type": "text"
+                },
+                "respirator_color": { // 口罩颜色
+                    "type": "keyword"
+                },
+                "cap_style": { // 帽子款式
+                    "type": "keyword"
+                },
+                "cap_color": { // 帽子颜色
+                    "type": "keyword"
+                },
+                "glass_style": { // 眼镜款式
+                    "type": "keyword"
+                },
+                "glass_color": { // 眼镜颜色
+                    "type": "keyword"
+                },
+                "eyebrow_style": { // 眉型
+                    "type": "keyword"
+                },
+                "nose_style": { // 鼻型
+                    "type": "keyword"
+                },
+                "mustache_style": { // 胡型
+                    "type": "keyword"
+                },
+                "lip_style": { // 嘴唇
+                    "type": "keyword"
+                },
+                "wrinkle_pouch": { // 皱纹眼袋
+                    "type": "keyword"
+                },
+                "acne_stain": { // 痤疮色斑
+                    "type": "keyword"
+                },
+                "freckle_birthmark": { // 黑痣胎记
+                    "type": "keyword"
+                },
+                "scar_dimple": { // 疤痕酒窝
+                    "type": "keyword"
+                },
+                "other_feature": { // 其他特征
+                    "type": "text"
+                },
+                "angle": { // 姿态分布，角度，未知，正面，侧面，背面
+                    "type": "keyword"
+                },
+                "physique": { // 体型
+                    "type": "keyword"
+                },
+                "posture": { // 姿态，站 蹲 卧 躺 坐 行走 奔跑 跳跃 攀登 匍匐 其他
+                    "type": "keyword"
+                },
+                "condition": { // 状态，醉酒 亢奋 正常 其他
+                    "type": "keyword"
+                },
+                "body_feature": { // 体表特征，是否有必要？是否能自动识别？
+                    "type": "text"
+                },
+                "habit": { // 习惯动作
+                    "type": "keyword"
+                },
+                "act": { // 行为，1：尾随；2：徘徊；3：取款；4：打架；5：开车；6：打手机；99：其他；
+                    "type": "keyword"
+                },
+                "accessories": { // 附属物，数组？还是分开？有无手推车,有无行李箱
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "umbrella_color": { // 伞颜色
+                    "type": "keyword"
+                },
+                "scarf_color": { // 围巾颜色
+                    "type": "keyword"
+                },
+                "bag_style": { // 包款式，数组？还是分开？
+                    "type": "keyword"
+                },
+                "bag_color": { // 包颜色
+                    "type": "keyword"
+                },
+                "coat_texture": { // 上衣款式
+                    "type": "keyword"
+                },
+                "coat_length": { // 上衣长度
+                    "type": "keyword"
+                },
+                "coat_color_nums": { // 上身颜色数目
+                    "type": "keyword"
+                },
+                "coat_color": { // 上衣颜色数组
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "trousers_texture": { // 下身款式
+                    "type": "keyword"
+                },
+                "trousers_length": { // 下身长度
+                    "type": "keyword"
+                },
+                "trousers_color_nums": { // 下身颜色数目
+                    "type": "keyword"
+                },
+                "trousers_color": { // 下身颜色数组
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "shoes_texture": { // 鞋子款式
+                    "type": "keyword"
+                },
+                "shoes_color_nums": { // 鞋子颜色数目
+                    "type": "keyword"
+                },
+                "shoes_color": { // 鞋子颜色数组
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "has_plate": { // 有无车牌，包括非机动车，二轮车之类
+                    "type": "keyword"
+                },
+                "plate_class": { // 号牌种类
+                    "type": "keyword"
+                },
+                "plate_color": { // 车牌颜色
+                    "type": "keyword"
+                },
+                "plate_no": { // 车牌号
+                    "type": "keyword"
+                },
+                "trailer_plate_no": { // 挂车牌号
+                    "type": "keyword"
+                },
+                "driving_direction": { // 行驶方向
+                    "type": "keyword"
+                },
+                "driving_state": { // 行驶状态代码
+                    "type": "keyword"
+                },
+                "vehicle_purpose": { // 车辆使用性质代码
+                    "type": "keyword"
+                },
+                "vehicle_class": { // 车辆类型
+                    "type": "keyword"
+                },
+                "vehicle_brand": { // 车辆品牌
+                    "type": "keyword"
+                },
+                "vehicle_model": { // 车辆型号
+                    "type": "keyword"
+                },
+                "vehicle_color_nums": { // 车辆颜色数目
+                    "type": "keyword"
+                },
+                "vehicle_color": { // 车身颜色数组
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "color_shade": { // 颜色深浅
+                    "type": "keyword"
+                },
+                "rut_stamp": { // 车轮印花纹
+                    "type": "keyword"
+                },
+                "film_color": { // 贴膜颜色
+                    "type": "keyword"
+                },
+                "vehicle_front_article": { // 车前部物品
+                    "type": "keyword"
+                },
+                "front_article_description": { // 车前部物品描述
+                    "type": "text"
+                },
+                "vehicle_rear_article": { // 车后部物品
+                    "type": "keyword"
+                },
+                "rear_article_description": { // 车后部物品描述
+                    "type": "text"
+                },
+                "sunvisor": { // 遮阳板状态,0 收起,1 放下
+                    "type": "keyword"
+                },
+                "paper": { // 是否有摆饰,0 无,1 有
+                    "type": "keyword"
+                },
+                "drop": { // 是否有挂饰,0 无,1 有
+                    "type": "keyword"
+                },
+                "tag": { // 年检标个数,0 无
+                    "type": "keyword"
+                },
+                "sunRoof": { // 天窗 1 有 0 没有
+                    "type": "keyword"
+                },
+                "spareTire": { // 备胎 1 有 0 没有
+                    "type": "keyword"
+                },
+                "rack": { // 行李架 1 有 0 没有
+                    "type": "keyword"
+                },
+                "safety_belt": { // 安全带状态
+                    "type": "object",
+                    "properties": {
+                        "main_driver": {
+                            "type": "integer"
+                        },
+                        "co_driver": {
+                            "type": "integer"
+                        }
+                    }
+                },
+                "has_call": { // 打电话状态
+                    "type": "keyword"
+                },
+                "has_crash": { // 撞痕信息,0：没有撞痕；1：少量撞痕；2：大量撞痕；
+                    "type": "keyword"
+                },
+                "has_danger": { // 是否危化车,0 否,1 有
+                    "type": "keyword"
+                },
+                "vehicle_year": { // 车辆年款，这信息能通过视频或图片自动分析出来吗？
+                    "type": "keyword",
+                    "index": false,
+                    "doc_values": false
+                },
+                "vehicle_length": { // 车辆长度，这信息能通过视频或图片自动分析出来吗？
+                    "type": "integer"
+                },
+                "vehicle_width": { // 车辆宽度，这信息能通过视频或图片自动分析出来吗？
+                    "type": "integer"
+                },
+                "vehicle_high": { // 车辆高度，这信息能通过视频或图片自动分析出来吗？
+                    "type": "integer"
+                },
+                "vehicle_hood": { // 车前盖，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "vehicle_rear_cover": { // 车后盖，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "vehicle_wheels": { // 车轮，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "vehicle_windows": { // 车窗，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "vehicle_roof": { // 车顶，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "vehicle_doors": { // 车门，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "vehicle_side": { // 车侧，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "vehicle_body": { // 车厢，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "rearview_mirror": { // 后视镜
+                    "type": "keyword"
+                },
+                "chassis": { // 底盘，这信息能通过视频或图片自动分析出来吗？
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "has_shelter": { // 遮挡
+                    "type": "keyword"
+                },
+                "vehicle_description": { // 车身描述
+                    "type": "text",
+                    "index": false,
+                    "doc_values": false
+                },
+                "wheel_nums": { // 车轮 -1: 未知 1: 自行车 2: 两轮车 3: 三轮车
+                    "type": "keyword"
+                },
+                "bike_class": { // 骑行类型
+                    "type": "keyword"
+                },
+                "has_helmet": { // 有无戴头盔,1 佩戴,0 未佩戴
+                    "type": "keyword"
+                },
+                "helmet_color": { // 头盔颜色
+                    "type": "keyword"
+                }
+            }
+        }
+    }
+}

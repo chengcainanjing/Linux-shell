@@ -1,0 +1,204 @@
+{
+  "template": "person_list_data*",
+  "order": 0,
+  "settings": {
+    "number_of_shards": 5,
+    "number_of_replicas": 0
+  },  
+  "mappings": {
+    "person_list": {
+      "_all": {
+        "enabled": false
+      },
+      "_field_names": {
+        "enabled": false
+      },     
+      "properties": {
+        "lib_id":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "person_id":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "person_name":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "birth":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "nation":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "country":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "addr":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "tel":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "nature_residence":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "room_number":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "door_open":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "sex":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "image_name":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "feature": {
+          "type": "feature",
+          "index": "not_analyzed",
+          "doc_values": true
+        },
+        "feature2": {
+          "type": "binary",
+          "index": "no",
+          "doc_values": true
+        },
+        "feature3": {
+          "type": "binary",
+          "index": "no",
+          "doc_values": true
+        },
+        "feature4": {
+          "type": "binary",
+          "index": "no",
+          "doc_values": true
+        },
+        "feature5": {
+          "type": "binary",
+          "index": "no",
+          "doc_values": true
+        },
+        "feature6": {
+          "type": "binary",
+          "index": "no",
+          "doc_values": true
+        },
+        "feature7": {
+          "type": "binary",
+          "index": "no",
+          "doc_values": true
+        },
+        "feature8": {
+          "type": "binary",
+          "index": "no",
+          "doc_values": true
+        },
+        "card_id":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "flag":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "comment":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "control_start_time":{
+          "type": "date",
+          "index": "not_analyzed"
+        },
+        "control_end_time":{
+          "type": "date",
+          "index": "not_analyzed"
+        },
+        "is_del":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "create_time":{
+          "type": "date",
+          "index": "not_analyzed"
+        },
+        "modify_time":{
+          "type": "date",
+          "index": "not_analyzed"
+        },
+        "community_id":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "community_name":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "control_community_id":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "control_police_category":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "control_person_tel":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "control_person_id":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "description":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "belong_police_station":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "control_person_name":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "control_event_id":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "image_id":{
+          "type": "keyword",
+          "index": "not_analyzed"
+        },
+        "personlib_type":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "card_type":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "alarm_level":{
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "rowkey":{
+          "type": "binary",
+          "index": "no"
+        }
+      }
+    }
+  }
+}

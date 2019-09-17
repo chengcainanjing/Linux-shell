@@ -1,0 +1,34 @@
+{
+  "template": "fused_data*",
+  "order": 0,
+  "settings": {
+    "number_of_shards": 5,
+    "number_of_replicas": 0
+  }, 
+  "mappings": {
+    "fused": {
+      "_field_names": {
+        "enabled": false
+      },
+      "_all": {
+        "enabled": false
+      },
+      "properties": {
+        "fused_id": {
+          "type": "keyword",
+		  "index": "not_analyzed"
+        },
+        "fused_feature": {
+          "type": "binary"
+        },
+        "fused_count": {
+          "type": "integer",
+		  "index": "not_analyzed"
+        },
+        "fused_time": {
+          "type": "date"
+        }
+      }
+    }
+  }
+}

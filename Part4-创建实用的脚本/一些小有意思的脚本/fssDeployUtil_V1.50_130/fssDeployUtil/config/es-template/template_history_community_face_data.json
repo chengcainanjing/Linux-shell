@@ -1,0 +1,358 @@
+{
+  "template": "history_community_face_data*",
+  "order": 0,
+  "settings": {
+    "number_of_shards": 18,
+    "number_of_replicas": 0
+  },  
+  "mappings": {
+    "history_data": {
+      "_all": {
+        "enabled": false
+      },
+      "_field_names": {
+        "enabled": false
+      },	 
+      "properties": {
+	    "event_id":{
+          "type": "long"
+        },
+	    "uuid":{
+          "type": "keyword",
+          "index": false,
+		  "doc_values": false
+        },		
+		"event_type":{
+          "type": "integer"
+        },
+		"event_group":{
+          "type": "keyword"
+        },
+		"event_name":{
+          "type": "keyword",
+		  "doc_values": false
+        },
+		"event_desc":{
+          "type": "keyword",
+          "index": false,
+		  "doc_values": false
+        },
+		"event_time":{
+          "type": "date",
+		  "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+		"report_time":{
+          "type": "date",
+		  "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },		
+		"enter_time": {
+          "type": "date",
+		  "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+		"op_time":{
+          "type": "date",
+		  "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },	
+		"leave_time": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+		"duration_time": {
+          "type": "long",
+		  "doc_values": false
+        },
+		"platform_id":{
+          "type": "keyword"
+        },
+		"platform_name":{
+          "type": "keyword"
+        },
+		"direction":{
+          "type": "integer"
+        },
+		"gpsx":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+		"gpsy":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+		"gpsz":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+	    "gps_type":{
+          "type": "integer",
+          "index": false,
+		  "doc_values": false
+        },
+		"camera_id":{
+          "type": "keyword"
+        },
+		"camera_name":{
+          "type": "keyword"
+        },
+		"camera_kind":{
+          "type": "integer"
+        },
+		"camera_type":{
+          "type": "integer"
+        },
+		"camera_adress":{
+          "type": "integer"
+        },
+		"card_reader_id":{
+          "type": "keyword"
+        },		
+		"card_reader_name":{
+          "type": "keyword"
+        },
+		"card_reader_kind":{
+          "type": "integer"
+        },
+		"card_reader_type":{
+          "type": "integer",
+          "index": "no"
+        },
+		"card_reader_adress":{
+          "type": "integer"
+        },
+		"msg_type":{
+          "type": "integer"
+        },
+		"controller_id":{
+          "type": "keyword"
+        },
+		"controller_kind":{
+          "type": "integer"
+        },	  
+		"controller_type":{
+          "type": "integer"
+        },
+		"controller_name":{
+          "type": "keyword"
+        },
+		"frame_index":{
+          "type": "integer",
+          "index": false,
+		  "doc_values": false 
+        },
+		"task_idx":{
+          "type": "keyword",
+          "index": false,
+		  "doc_values": false
+        },
+		"track_idx":{
+          "type": "keyword",
+          "index": false,
+		  "doc_values": false
+        },
+		"card_no":{
+          "type": "keyword"
+        },		
+		"card_type":{
+          "type": "keyword"
+        },	
+		"village_id": {
+          "type": "keyword"
+        },
+		"village_name": {
+          "type": "keyword"
+        },
+		"office_id": {
+          "type": "keyword"
+        },
+		"office_name":{
+          "type": "keyword"
+        },
+		"build_id":{
+          "type": "keyword"
+        },
+		"build_no":{
+          "type": "integer"
+        },
+		"unit_id":{
+          "type": "keyword"
+        },
+		"unit_no":{
+          "type": "integer"
+        },
+		"floor_id":{
+          "type": "keyword"
+        },	  
+		"floor_no":{
+          "type": "integer"
+        },
+		"house_id":{
+          "type": "keyword"
+        },
+		"house_no":{
+          "type": "integer"
+        },
+		"house_adress":{
+          "type": "keyword"
+        },
+		"big_picture_path":{
+          "type": "keyword",
+          "index": false,
+		  "doc_values": false
+        },	 
+		"small_picture_path":{
+          "type": "keyword",
+          "index": false,
+		  "doc_values": false
+        },
+		"face_x":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+		"face_y":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+		"face_width":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+		"face_height":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },	 
+		"yaw":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+		"pitch":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+		"roll":{
+          "type": "float",
+          "index": false,
+		  "doc_values": false
+        },
+		"register_person_name":{
+          "type": "keyword"
+        },
+		"register_person_id":{
+          "type": "keyword"
+        },	 
+		"register_credential_no":{
+          "type": "keyword"
+        },		
+		"register_person_type":{
+          "type": "integer"
+        },
+		"register_gender_code":{
+          "type": "keyword"
+        },	 
+		"recg_person_type":{
+          "type": "integer"
+        },	  
+		"recg_personlib_type":{
+          "type": "integer"
+        },
+		"recg_person_id":{
+          "type": "keyword"
+        },	 
+		"recg_person_name":{
+          "type": "keyword"
+        },		
+		"recg_credentia_no":{
+          "type": "keyword"
+        },
+		"recg_gender_code":{
+          "type": "keyword"
+        },	 
+		"recg_event_id":{
+          "type": "keyword"
+        },	  	  
+		"recg_is_visitor":{
+          "type": "integer"
+        },	 
+	    "lib_id":{
+          "type": "integer"
+        },
+	   "person_id":{
+          "type": "keyword"
+        },
+		"person_name":{
+          "type": "keyword"
+        },
+		"gender":{
+          "type": "integer"
+        },
+		"personlib_type":{
+          "type": "integer"
+        },
+		"credentia_no":{
+          "type": "keyword"
+        },	
+		"similarity":{
+          "type": "float"
+        },	
+		"rt_feature":{
+          "type": "feature",
+          "index": false
+        },	
+		"face_feature":{
+          "type": "binary",
+          "index": false
+        },		
+	    "face_pass_num": {
+          "type": "integer"
+        },
+        "face_pass_seq": {
+          "type": "integer"
+        },
+		"recg_similarity_degree": {
+          "type": "float"
+        },
+		"birth": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "glass": {
+          "type": "integer"
+        },
+		"mask": {
+          "type": "integer"
+        },
+        "race": {
+          "type": "integer"
+        },
+        "beard": {
+          "type": "integer"
+        },
+        "emotion": {
+          "type": "integer"
+        },
+        "eye_open": {
+          "type": "integer"
+        },
+		"mouth_open": {
+          "type": "integer"
+        },
+		"age":{
+          "type": "integer"
+        },
+		"is_alarm":{
+          "type": "integer"
+        },
+		"coarse_id":{
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

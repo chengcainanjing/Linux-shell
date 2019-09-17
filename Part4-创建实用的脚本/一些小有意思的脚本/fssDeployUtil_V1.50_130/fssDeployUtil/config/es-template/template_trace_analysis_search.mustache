@@ -1,0 +1,13 @@
+
+{"template":"{\"query\":{\"bool\":{\"filter\":[{}{{#enter_time_start}}{{#enter_time_end}},{\"range\":{\"enter_time\":{\"gte\":\"{{enter_time_start}}\",\"lte\":\"{{enter_time_end}}\",\"format\":\"yyyy-MM-dd HH:mm:ss\",\"time_zone\":\"+08:00\"}}}{{/enter_time_end}}{{/enter_time_start}}] {{#similarity}},\"filter\":{\"range\":{\"similarity\":{\"gte\":\"{{similarity}}\"}}}{{/similarity}}{{#is_person}},\"filter\":{\"bool\":{\"should\":{\"terms\":{\"person_id\":{{#toJson}}person_id{{/toJson}}}}}}{{/is_person}}{{#is_lib}},\"filter\":{\"bool\":{\"should\":{\"terms\":{\"lib_id\":{{#toJson}}lib_id{{/toJson}}}}}}{{/is_lib}}{{#is_office}},\"filter\":{\"bool\":{\"should\":{\"terms\":{\"office_id\":{{#toJson}}office_id{{/toJson}}}}}}{{/is_office}}{{#is_camera}},\"filter\":{\"bool\":{\"should\":{\"terms\":{\"camera_id\":{{#toJson}}camera_id{{/toJson}}}}}}{{/is_camera}}}}{{#time_aggregation}},\"aggs\":{\"group_by_time\":{\"date_histogram\":{\"field\":\"enter_time\",\"format\":\"yyyy-MM-dd HH:mm:ss\",\"time_zone\":\"+08:00\",\"interval\":\"{{search_interval}}\",\"min_doc_count\":0,\"extended_bounds\":{\"min\":\"{{enter_time_start}}\",\"max\":\"{{enter_time_end}}\"},\"order\":{\"_key\":\"desc\"}}}}{{/time_aggregation}}{{#person_aggregation}},\"aggs\":{\"group_by_person\":{\"terms\":{\"field\":\"person_id\",\"size\":{{person_numbers}}{{^person_numbers}}10000{{/person_numbers}},\"order\":{\"_count\":\"{{count_order}}\"}},\"aggs\":{\"top_person_hits\":{\"top_hits\":{\"sort\":[{\"enter_time\":{\"order\":\"desc\"}}],\"_source\":{\"includes\":{{#toJson}}includes{{/toJson}}},\"size\":1}}}}}{{/person_aggregation}}{{#camera_aggregation}},\"aggs\":{\"group_by_camera\":{\"terms\":{\"field\":\"camera_id\",\"size\":{{camera_top_num}}{{^camera_top_num}}20{{/camera_top_num}},\"order\":{\"_count\":\"{{count_order}}\"}},\"aggs\":{\"top_camera_hits\":{\"top_hits\":{\"_source\":{\"includes\":[\"camera_name\"]},\"size\":1}}}}}{{/camera_aggregation}}{{#trail_aggregation}},\"aggs\":{\"group_by_trail\":{\"date_histogram\":{\"field\":\"enter_time\",\"format\":\"yyyy-MM-dd HH:mm:ss\",\"time_zone\":\"+08:00\",\"min_doc_count\":1,\"interval\":\"{{search_interval}}\",\"order\":{\"_key\":\"desc\"}},\"aggs\":{\"group_by_camera\":{\"terms\":{\"field\":\"camera_id\",\"size\":{{camera_top_num}}{{^camera_top_num}}200{{/camera_top_num}},\"order\":{\"_count\":\"desc\"}},\"aggs\":{\"camera_person_hits\":{\"top_hits\":{\"sort\":[{\"enter_time\":{\"order\":\"desc\"}}],\"_source\":{\"includes\":{{#toJson}}includes{{/toJson}}},\"size\":{{person_size}}}}}}}}}{{/trail_aggregation}},\"from\":{{from}},\"size\":{{size}}{{#is_sort}},\"sort\":[{{#sortField}}{{#sortOrder}}{\"{{sortField}}\":{\"order\":\"{{sortOrder}}\"}},{{/sortOrder}}{{/sortField}}\"_score\"]{{/is_sort}}}"}
+
+
+
+
+
+
+
+
+
+
+
