@@ -5,7 +5,14 @@
     <bookmark url="file://$PROJECT_DIR$/Part3-高级shell脚本编程/脚本函数/sh38-全局变量与局部变量.sh" line="35" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="7953960a-0aea-4f17-9f09-7d2bdc3ce09a" name="Default Changelist" comment="适配 Mac">
+      <change afterPath="$PROJECT_DIR$/FizzBuzz.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> origin/Mac
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,33 +37,120 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_check使用说明.txt">
           <provider selected="true" editor-type-id="text-editor" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sh09-2.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_check.sh">
+        <entry file="file://$PROJECT_DIR$/sh12.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="180">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sh12-2.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FizzBuzz.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+>>>>>>> origin/Mac
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_check.sh">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="414">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+=======
+            <state relative-caret-position="150">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+>>>>>>> origin/Mac
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/猜随机数.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sh13.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sh16.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sh13-2.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+>>>>>>> origin/Mac
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/一些小有意思的脚本/fssDeployUtil_V1.50_130/fssDeployUtil/fss_service.sh">
           <provider selected="true" editor-type-id="text-editor" />
+=======
+        <entry file="file://$PROJECT_DIR$/sh14.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sh15.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+>>>>>>> origin/Mac
         </entry>
       </file>
     </leaf>
@@ -82,6 +176,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/sh15.sh" />
         <option value="$PROJECT_DIR$/sh17.sh" />
         <option value="$PROJECT_DIR$/sh16.sh" />
@@ -144,6 +239,25 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+=======
+        <option value="$PROJECT_DIR$/sh09-2.sh" />
+        <option value="$PROJECT_DIR$/sh12.sh" />
+        <option value="$PROJECT_DIR$/sh12-3.sh" />
+        <option value="$PROJECT_DIR$/sh13.sh" />
+        <option value="$PROJECT_DIR$/sh13-2.sh" />
+        <option value="$PROJECT_DIR$/sh14.sh" />
+        <option value="$PROJECT_DIR$/sh15.sh" />
+        <option value="$PROJECT_DIR$/sh12-2.sh" />
+        <option value="$PROJECT_DIR$/sh16.sh" />
+        <option value="$PROJECT_DIR$/FizzBuzz.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+>>>>>>> origin/Mac
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -151,10 +265,12 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="shell_chengcai" type="b2602c69:ProjectViewProjectNode" />
               <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -186,6 +302,10 @@
               <item name="shell_chengcai" type="462c0819:PsiDirectoryNode" />
               <item name="Part4-创建实用的脚本" type="462c0819:PsiDirectoryNode" />
               <item name="编写简单的脚本使用工具" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Linux-shell" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Linux-shell" type="462c0819:PsiDirectoryNode" />
+>>>>>>> origin/Mac
             </path>
           </expand>
           <select />
@@ -203,14 +323,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+=======
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+>>>>>>> origin/Mac
     <property name="settings.editor.splitter.proportion" value="0.25222552" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part4-创建实用的脚本\编写简单的脚本使用工具" />
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sed进阶" />
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\正则表达式" />
@@ -219,6 +347,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\脚本函数" />
+=======
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\程才资料\读书心得-程才\Linux\shell" />
+>>>>>>> origin/Mac
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,20 +365,25 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Bash.sh47-重定向sed的输出.sh">
+=======
+  <component name="RunManager" selected="Bash.sh16.sh">
+>>>>>>> origin/Mac
     <configuration name="sh09-2.sh" type="BashConfigurationType" factoryName="Bash">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="D:\Program Files\Git\bin\sh.exe" />
+      <option name="INTERPRETER_PATH" value="#!/bin/bash" />
       <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell" />
+      <option name="WORKING_DIRECTORY" value="~/Documents/Git/Linux-shell" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell\sh09-2.sh" />
+      <option name="SCRIPT_NAME" value="~/Documents/Git/Linux-shell/sh09-2.sh" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="sh38-全局变量与局部变量.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,11 +392,22 @@
       <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh38-全局变量与局部变量.sh" />
+=======
+    <configuration name="sh13-2.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sh13-2.sh" />
+>>>>>>> origin/Mac
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="sh39-数组变量和函数.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,11 +416,22 @@
       <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh39-数组变量和函数.sh" />
+=======
+    <configuration name="sh13.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sh13.sh" />
+>>>>>>> origin/Mac
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="sh40-函数递归.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,11 +440,22 @@
       <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh40-函数递归.sh" />
+=======
+    <configuration name="sh14.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sh14.sh" />
+>>>>>>> origin/Mac
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="sh41-创建库.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,11 +464,22 @@
       <option name="WORKING_DIRECTORY" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sh41-创建库.sh" />
+=======
+    <configuration name="sh15.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sh15.sh" />
+>>>>>>> origin/Mac
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="sh47-重定向sed的输出.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,12 +489,24 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="D:\程才资料\读书心得-程才\Linux\shell_chengcai\Part3-高级shell脚本编程\sed进阶\sh47-重定向sed的输出.sh" />
       <option name="PARAMETERS" value="20" />
+=======
+    <configuration name="sh16.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sh16.sh" />
+      <option name="PARAMETERS" value="" />
+>>>>>>> origin/Mac
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Bash.sh09-2.sh" />
+<<<<<<< HEAD
       <item itemvalue="Bash.sh38-全局变量与局部变量.sh" />
       <item itemvalue="Bash.sh39-数组变量和函数.sh" />
       <item itemvalue="Bash.sh40-函数递归.sh" />
@@ -327,6 +520,21 @@
         <item itemvalue="Bash.sh40-函数递归.sh" />
         <item itemvalue="Bash.sh39-数组变量和函数.sh" />
         <item itemvalue="Bash.sh38-全局变量与局部变量.sh" />
+=======
+      <item itemvalue="Bash.sh13.sh" />
+      <item itemvalue="Bash.sh13-2.sh" />
+      <item itemvalue="Bash.sh14.sh" />
+      <item itemvalue="Bash.sh15.sh" />
+      <item itemvalue="Bash.sh16.sh" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Bash.sh16.sh" />
+        <item itemvalue="Bash.sh15.sh" />
+        <item itemvalue="Bash.sh14.sh" />
+        <item itemvalue="Bash.sh13-2.sh" />
+        <item itemvalue="Bash.sh13.sh" />
+>>>>>>> origin/Mac
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +551,7 @@
       <workItem from="1559355105204" duration="4875000" />
       <workItem from="1559368181332" duration="3853000" />
       <workItem from="1559372711942" duration="1111000" />
+<<<<<<< HEAD
       <workItem from="1559373861947" duration="12117000" />
       <workItem from="1559718371364" duration="663000" />
       <workItem from="1560223843154" duration="16795000" />
@@ -364,6 +573,12 @@
       <workItem from="1563843332844" duration="979000" />
       <workItem from="1564051668203" duration="3695000" />
       <workItem from="1564705722791" duration="3034000" />
+=======
+      <workItem from="1559373861947" duration="229000" />
+      <workItem from="1559393731116" duration="5910000" />
+      <workItem from="1559471152952" duration="1078000" />
+      <workItem from="1565403878066" duration="2941000" />
+>>>>>>> origin/Mac
     </task>
     <task id="LOCAL-00001" summary="cc">
       <created>1559373124202</created>
@@ -372,6 +587,7 @@
       <option name="project" value="LOCAL" />
       <updated>1559373124202</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="添加for 固定循环脚本">
       <created>1559374145176</created>
       <option name="number" value="00002" />
@@ -545,6 +761,48 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="157758000" />
+=======
+    <task id="LOCAL-00002" summary="sh09-2.sh 针对 mac 做出修改">
+      <created>1559394189567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559394189568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sh09-2.sh 针对 mac 做出修改">
+      <created>1559399196000</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559399196000</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sh09-2.sh 针对 mac 做出修改">
+      <created>1559399213796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559399213796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sh16.sh 修改错别字">
+      <created>1559399477894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559399477894</updated>
+    </task>
+    <task id="LOCAL-00006" summary="适配 Mac">
+      <created>1559400719435</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559400719435</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20007000" />
+>>>>>>> origin/Mac
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,16 +814,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.31540343" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.16442543" />
+=======
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13662376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+>>>>>>> origin/Mac
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.22805017" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49755502" weight="0.22462942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -578,6 +845,20 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502445" side_tool="true" weight="0.2418813" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.327252" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.3299363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4985694" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.3299363" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+>>>>>>> origin/Mac
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -587,7 +868,11 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+<<<<<<< HEAD
       <window_info anchor="right" id="SciView" order="9" weight="0.32985073" />
+=======
+      <window_info anchor="right" id="SciView" order="9" />
+>>>>>>> origin/Mac
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.2739726" />
@@ -625,13 +910,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
             <State>
-              <option name="BEK_SORT_TYPE" value="1" />
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
               </option>
@@ -649,7 +943,86 @@
             </State>
           </value>
         </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Mac" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+        <option value="3" />
+      </set>
     </option>
     <option name="RECENT_FILTERS">
       <map>
@@ -658,7 +1031,16 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+<<<<<<< HEAD
                   <option value="master" />
+=======
+                  <option value="origin/Mac" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Mac" />
+>>>>>>> origin/Mac
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -679,6 +1061,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cc" />
+<<<<<<< HEAD
     <MESSAGE value="添加for 固定循环脚本" />
     <MESSAGE value="添加for 固定循环脚本2" />
     <MESSAGE value="更新16sh，测试可用" />
@@ -968,25 +1351,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+=======
+    <MESSAGE value="sh09-2.sh 针对 mac 做出修改" />
+    <MESSAGE value="sh16.sh 修改错别字" />
+    <MESSAGE value="适配 Mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配 Mac" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sh16.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh13-2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh14.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh15.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> origin/Mac
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sed进阶/sh46-在脚本中使用sed.sh">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="252">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+=======
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+>>>>>>> origin/Mac
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Part3-高级shell脚本编程/sed进阶/sh48-创建sed实用工具.sh">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="815">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
+=======
+        <state relative-caret-position="150">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+>>>>>>> origin/Mac
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Part4-创建实用的脚本/编写简单的脚本使用工具/sh49-归档脚本-Daily_Archive.sh">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="36">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
@@ -1024,6 +1451,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+=======
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh09-2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh12.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FizzBuzz.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+>>>>>>> origin/Mac
         </state>
       </provider>
     </entry>
@@ -1044,6 +1496,10 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+<<<<<<< HEAD
+=======
+          <last-edited>No facets are configured</last-edited>
+>>>>>>> origin/Mac
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1066,6 +1522,10 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+<<<<<<< HEAD
+=======
+          <last-edited>12</last-edited>
+>>>>>>> origin/Mac
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1077,10 +1537,18 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+<<<<<<< HEAD
+=======
+          <last-edited>shell</last-edited>
+>>>>>>> origin/Mac
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+<<<<<<< HEAD
+=======
+                <option value="0.6" />
+>>>>>>> origin/Mac
               </list>
             </option>
           </splitter-proportions>
